@@ -1,2 +1,6 @@
-# ModellingLongitudinalPolytomousData
-We introduce Bayesian hierarchical models as an alternative methodology to classical statistical techniques for analysing nominal polytomous data in longitudinal studies.
+# Modelling longitudinal polytomous animal data using Bayesian hierarchical models
+
+Code used for the paper https://arxiv.org/pdf/2507.17004
+
+# Abstract
+The analysis of longitudinal categorical data can be complex and unfeasible due to the number of parameters involved, characterised by overparameterisation leading to model non-convergence, in addition to problems related to sample size and the presence or absence of overdispersion. In this context, we introduce Bayesian hierarchical models as an alternative methodology to classical statistical techniques for analysing nominal polytomous data in longitudinal studies. The theoretical foundation is based on the use of non-informative priors and advanced computational techniques, such as Markov Chain Monte Carlo (MCMC) methods, which enable a robust and flexible data analysis framework. As a motivating example, the procedure is illustrated through an applied study in agrarian science, focusing on animal welfare, which assessed seven types of behaviours exhibited by pigs over twelve weeks. The results demonstrated the efficacy of Bayesian hierarchical models for the analysis of longitudinal nominal polytomous data. Since the computational procedures were implemented in the R software and the codes are available, this work will serve as support for those who need such analyses, especially in agricultural designs, where longitudinal categorical data are frequently encountered.
